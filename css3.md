@@ -63,7 +63,7 @@ input:not([type=radio]):not{....}
 
 ###2、CSS3边框
 
-2.1、border-style常用值列表
+>2.1、border-style常用值列表
 
 none 无边框
 
@@ -75,7 +75,7 @@ dashed 虚线
 
 solid 实线
 
-2.2、border类型
+>2.2、border类型
 
 border-color、border-image、border-radius、border-shadow
 
@@ -85,7 +85,7 @@ border-color可以有颜色值如red、#000还以可以有rgba
 
 其中transparent可以设置透明色
 
-2.3、border-radius
+>2.3、border-radius
 
 圆角的设置技巧
 
@@ -99,7 +99,7 @@ border-color可以有颜色值如red、#000还以可以有rgba
 
 （5）椭圆 宽是高的2倍 圆角半径的水平半径等于元素宽度
 
-2.4、border-shadow
+>2.4、border-shadow
 
 border-shadow：x-offset y-offset blur-radius spread-radius color
 
@@ -115,7 +115,7 @@ background-size 指定背景图的尺寸
 
 background-break 指定内敛元素的背景图平铺时循环方式
 
-3.1、background-origin:padding-box || boder-box || content-box
+>3.1、background-origin:padding-box || boder-box || content-box
 
 padding-box:从padding的外边缘显示
 
@@ -123,11 +123,11 @@ border-box从border的外边缘显示
 
 content-box从content的外边缘显示
 
-3.2、background-clip背景裁切
+>3.2、background-clip背景裁切
 
 background-origin:padding-box || boder-box || content-box
 
-3.3、background-size背景尺寸
+>3.3、background-size背景尺寸
 
 background-size:auto||cover||contain
 
@@ -135,16 +135,53 @@ cover:将背景放大，以适合铺满整个容器，但是会使图片失真
 
 contain：保持图片的宽高比例，将图片缩放到宽高正好适应所定义的容器区域
 
+###4、CSS3文本
 
+font-style / font-weight/ font-size-adjust(定义是否强制对文本使用同一尺寸) font-stretch（定义横向拉伸变形字体） 
 
+>4.1、CSS文本类型
 
+word-spacig:normal/lenght  词与词之间的距离
 
+lettet-spacing:none/length 字符与字符的距离
 
+vertical-align:baseline/sub/suber/bottom 垂直对齐方式
 
+text-decoration:none/underline/overline/line-through/blink
 
+text-indent:length
 
+text-align:left/center/right/justify 文本水平对齐方式
 
+line-height 文本行高
 
+text-transform:none/uppercase/lowercase/capitalize 定义文本大小写
+
+text-shadow 定义文本阴影效果
+
+white-space 定义文字和文本之间的空白字符
+
+direction 控制文本的流入方向
+
+>4.2、text-shadow
+
+text-shadow:color x-offset y-offset blur-radius
+
+>4.3、text-overflow 文本溢出属性
+
+text-overflow:clip/ellipsis
+
+clip:不显示省略标记（...）只是简单的裁切
+
+cllipsis：显示省略标记(...)，省略标记插入的位置是最后一个字符
+
+###5、CSS3颜色特性
+
+>5.1、CSS3透明属性
+
+opacity:alphavalue/inherit
+
+>5.1、
 
 
 
