@@ -181,7 +181,52 @@ cllipsis：显示省略标记(...)，省略标记插入的位置是最后一个�
 
 opacity:alphavalue/inherit
 
->5.1、
+>5.1、CSS3颜色模式
+
+rgba模式/hsl模式/hsla模式
+
+###6、CSS3盒模型
+
+>6.1、box-sizing属性及语法参数
+
+box-sizing属性主要用来控制元素的盒模型的解析模式，主要目的是控制元素的总宽度
+
+box-sizing:content-box||border-box||inherit
+
+content-box:让元素维持标准的盒模型。element width/height=border+padding+content width/height
+
+border-box:元素内容的width/height=盒子的宽或高-padding-border（可以保证设置的宽度值不会因为padding和border的值而改变）
+
+inherit：继承了父元素的盒模型模式
+
+>6.2、outline外轮廓属性
+
+outline不占网页布局空间，是一种动态样式，只有元素获取到焦点或者被激活时呈现
+
+outline:color style offset
+
+###7、CSS3伸缩布局盒模型
+
+CSS3引入了新的布局模式----Flexbox布局
+
+>7.1、初始化盒模型
+
+	display: box !important;
+	display:-webkit-box !important;
+	display: flxe;
+	display: -webkit-flex;
+
+>7.2、伸缩流方向box-orient
+
+box-orient属性主要用来创建主轴，从而定义了伸缩项目在伸缩容器中的流动方向
+
+horizontal:从左到右水平排列
+
+vertical:从上到下垂直排列
+
+inline-axis:沿着内联轴排列
+
+
 
 
 
