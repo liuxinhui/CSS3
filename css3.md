@@ -19,7 +19,7 @@ input:not([type=radio]):not{....}
 
 >常用语法
 
-::first-letter、::firsrt-line、::before、::after
+::first-letter、::firsrt-line、::before、::after、::section
 
 ::first-letter用来选择文本快的第一个字母（首字下沉、首字母）
 
@@ -53,6 +53,37 @@ input:not([type=radio]):not{....}
 		right:10px;
 	
 	}
+
+::section是用来匹配突出显示的文本
+
+	::section{
+		background:red;
+		color:blue;
+	}
+
+###2、CSS3边框
+
+2.1、border-style常用值列表
+
+none 无边框
+
+hidden 隐藏边框
+
+dotted 点状
+
+dashed 虚线
+
+solid 实线
+
+2.2、border类型
+
+border-color、border-image、border-radius、border-shadow
+
+border-color可以有颜色值如red、#000还以可以有rgba
+
+	border-color:1px solid rgba(0,0,0,0.6)
+
+其中transparent可以设置透明色
 
 
 
