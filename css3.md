@@ -85,6 +85,81 @@ border-color可以有颜色值如red、#000还以可以有rgba
 
 其中transparent可以设置透明色
 
+2.3、border-radius
+
+圆角的设置技巧
+
+（1）当border-radius的半径值小于或等于border的厚度时，元素内部就不具有圆角效果
+
+（2）元素的宽度是高度的2倍，并且圆角半径等于高度值时 可以制作上/下半圆
+
+（3）元素的高度是宽度的2倍，并且圆角半径等于高度值时 可以制作左/右半圆
+
+（4）制作扇形：宽 高 圆角半径相同
+
+（5）椭圆 宽是高的2倍 圆角半径的水平半径等于元素宽度
+
+2.4、border-shadow
+
+border-shadow：x-offset y-offset blur-radius spread-radius color
+
+###3、CSS3背景
+
+新增的属性
+
+background-origin 指定背景图片的起点
+
+background-clip指定背景图的显示范围
+
+background-size 指定背景图的尺寸
+
+background-break 指定内敛元素的背景图平铺时循环方式
+
+3.1、background-origin:padding-box || boder-box || content-box
+
+padding-box:从padding的外边缘显示
+
+border-box从border的外边缘显示
+
+content-box从content的外边缘显示
+
+3.2、background-clip背景裁切
+
+background-origin:padding-box || boder-box || content-box
+
+3.3、background-size背景尺寸
+
+background-size:auto||cover||contain
+
+cover:将背景放大，以适合铺满整个容器，但是会使图片失真
+
+contain：保持图片的宽高比例，将图片缩放到宽高正好适应所定义的容器区域
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
