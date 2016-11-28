@@ -226,6 +226,39 @@ vertical:从上到下垂直排列
 
 inline-axis:沿着内联轴排列
 
+block-axis:沿着块轴排列
+
+>7.3、布局顺序box-direction
+
+伸缩项目在容器中的流动顺序
+
+box-direction:normal||reverse
+
+>7.4、主轴对齐box-pack（水平）
+
+box-pack：start||center||end||justify
+
+>7.5、侧轴对齐box-align(垂直)
+
+box-align：start||center||end||baseline||stretch
+
+>7.6伸缩性box-flex
+
+box-flex:<number>
+
+>7.7、显示box-ordinal-group
+
+排列顺序是从小到大的顺序排列
+
+经验：如果希望整个页面的布局和浏览器窗口可视区域一样高，需要设置html和body的height一样
+
+	html,body{
+		height:100%;
+	}
+
+
+
+
 
 
 
