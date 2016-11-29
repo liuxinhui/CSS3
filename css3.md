@@ -274,9 +274,41 @@ column-fill控制每列的列高效果
 
 颜色沿着一条直线过渡
 
+语法：参数第一个to top是渐变方向，第二 第三分别是起始颜色
 
+	linear-gradient(to top,orange,green);
+	
+>9.2、径向渐变
 
+径向渐变是圆形或椭圆形渐变
 
+语法：
+
+radial-gradient（）
+
+###10、CSS3变形
+
+允许css3在2D或者3D空间进行变形操作
+
+>10.1、变形属性及函数
+
+X/Y可用的函数 translateX()、translateY()、scaleX()、scaleY()、skewX()、skewY()
+
+transform常用的transform-function功能
+
+translate()位移、scale()缩放、rotate()旋转、skew()倾斜
+
+###11、CSS3过渡
+
+transition是一个复合属性
+
+transition-property:指定过渡的css属性
+
+transition-duration:指定完成过渡所需的时间
+
+transition-timing-function:指定过渡的函数
+
+transition-day:指定过渡开始出现的延迟时间
 
 
 
