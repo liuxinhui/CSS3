@@ -310,6 +310,34 @@ transition-timing-function:指定过渡的函数
 
 transition-day:指定过渡开始出现的延迟时间
 
+例如：
+
+	transition:<property> <duration> <animation type> <dey>;
+	transition:background 2s linear 2s,border-radius 3s ease-in 3s;
+
+transition-timing-function函数的属性值 如下：
+
+ease:由快到慢，逐渐变慢
+
+linear:恒速
+
+ease-in:速度越来越快，呈一种加速状态，艰险效果
+
+ease-out:速度越来越慢，呈一种减速状态，渐隐效果
+
+ease-in-out：先加速再减速，呈现渐显渐隐效果
+
+###12、CSS3动画
+
+>12.1、CSS3动画属性
+
+animation属性可以通过@keyframes构建一些transition的动画效果
+
+语法：
+
+	animation:<animation-name> <animation-duration> <animation-timing-function> <animation-delay> <animation-iteration-count> <animation-direction> <animation-play-state> <animation-fill-mode>
+
+
 
 
 
