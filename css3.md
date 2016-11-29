@@ -337,6 +337,15 @@ animation属性可以通过@keyframes构建一些transition的动画效果
 
 	animation:<animation-name> <animation-duration> <animation-timing-function> <animation-delay> <animation-iteration-count> <animation-direction> <animation-play-state> <animation-fill-mode>
 
+animation-iteration-count 动画的播放次数
+
+animation-iteration-count:infinite|<number>
+
+animation-fill-mode 设置动画时间外属性
+
+animation-fill-mode:none|forwards|backwards|both
+
+
 
 
 
