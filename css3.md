@@ -256,6 +256,23 @@ box-flex:<number>
 		height:100%;
 	}
 
+###8、css3多列布局
+
+columns:包括column-width和column-count
+
+column-gap:定义间距
+
+column-rule定义边框
+
+column-span定义跨列
+
+column-fill控制每列的列高效果
+
+###9、CSS3渐变
+
+>9.1、线性渐变
+
+颜色沿着一条直线过渡
 
 
 
