@@ -282,5 +282,117 @@ data-toggle=”dropdown”
 
 输入框组就是给输入框的两侧增加元素或者按钮
 
+1.增加元素
+2.增加按钮
+
+	<div class="input-group">
+			<span class="input-group-addon">$</span>
+			<input type="text" class="form-control" >
+		</div>
+
+
+### 导航
+
+普通的导航条：nav nav-tabs
+
+胶囊式导航：nav nav-pills
+
+堆叠导航：nav nav-stacked
+
+平铺的导航：nav nav-justified
+
+	<nav class="navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">大唐网络369</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">网站首页</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<form class="navbar-form navbar-left" role="form">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="请输入内容"  />
+					<button type="button" class="btn btn-default">搜索</button>
+				</div>
+			</form>	
+			<div class="container">
+				<ul  class="nav navbar-nav navbar-right ">
+					<li><a href="#">忘记密码</a></li>
+					<li class="dropdown">
+						<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">账号中心<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">PHP大牛班</a></li>
+           					 <li><a href="#">Web前端与HTML5</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>	
+		</nav>
+		<div class="container" style="padding-top:55px ;">
+			<ul class="breadcrumb">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">文档中心</a></li>
+			</ul>
+		</div>	
+
+
+### 分页
+
+	<nav>
+				<ul class="pagination">
+					<li><a href="#">&laquo;</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</nav>
+
+###alert警告框
+
+	<div class="alert alert-success">
+				<button class="close" data-dismiss="alert" >
+					<span>&times;</span>
+				</button>
+				这是一个警告框
+			</div>
+
+###  面版
+
+### 第三章 JavaScript组件
+
+模态框
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Launch demo modal
+	</button>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
